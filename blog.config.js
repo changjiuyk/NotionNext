@@ -44,16 +44,17 @@ const BLOG = {
   ],
   FONT_SANS: [
     // 无衬线字体 例如'LXGW WenKai'
+    '"LXGW WenKai"',
     '"PingFang SC"',
     '-apple-system',
     'BlinkMacSystemFont',
     '"Hiragino Sans GB"',
+    '"Microsoft YaHei"',
     '"Segoe UI Emoji"',
     '"Segoe UI Symbol"',
     '"Segoe UI"',
     '"Noto Sans SC"',
     'HarmonyOS_Regular',
-    '"Microsoft YaHei"',
     '"Helvetica Neue"',
     'Helvetica',
     '"Source Han Sans SC"',
@@ -63,6 +64,7 @@ const BLOG = {
   ],
   FONT_SERIF: [
     // 衬线字体 例如'LXGW WenKai'
+    '"LXGW WenKai"',
     'Bitter',
     '"Noto Serif SC"',
     'SimSun',
@@ -73,7 +75,7 @@ const BLOG = {
     '"Segoe UI Symbol"',
     '"Apple Color Emoji"'
   ],
-  FONT_AWESOME: process.env.NEXT_PUBLIC_FONT_AWESOME_PATH || '/css/all.min.css', // font-awesome 字体图标地址、默认读取本地; 可选 https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
+  FONT_AWESOME: process.env.NEXT_PUBLIC_FONT_AWESOME_PATH || 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css', // font-awesome 字体图标地址; 可选 /css/all.min.css ， https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css
 
   // 自定义外部脚本，外部样式
   CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
